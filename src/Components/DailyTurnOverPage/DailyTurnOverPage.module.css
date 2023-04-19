@@ -1,0 +1,76 @@
+.firstDivContianer{
+    background-color: rgb(241,242,244);
+    padding-bottom: 15px;
+}
+.firstDivNestedFirstContianer{
+    width: 98%;
+    margin: auto;
+}
+.timezoneDiv{
+    display: flex;
+    justify-content: space-around;
+    padding: 1%;
+
+}
+.timezoneDivInnerDiv{
+    border: 1px solid gray;
+    padding: 1%;
+}
+.timezonePTag{
+    text-align: center;
+}
+.turnOverDiv{
+    width: 98%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+    padding-top: 15px;
+    font-family: sans-serif;
+}
+.turnOverDivFirstInnerDiv{
+    display: flex;
+    align-items: center;
+    background-color: #dee3ed;
+}
+.dollarSignDiv{
+    padding: 5%;
+}
+.dollarSignPTag{
+    border: 1px solid gray;
+    font-size: 24px;
+    padding: 5px 12px;
+    border-radius: 25px;
+}
+.turnOverAmoutPTagFirst{
+    font-weight: 500;
+    font-size: 25px;
+}
+.turnOverAmoutPTagSecond{
+    font-weight: 400;
+    font-size: 25px;
+}
+.turnOverAmoutSpanTag{
+    color: gray;
+    font-size: 15px;
+}
+.timezoneOutterDiv{
+    background-color: white;
+    padding: 15px;
+    margin-top: 15px;
+}
+.contentButton{
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
+.contentByButtonDiv{
+    padding: 10px;
+}
+.contentByButtonPTagFirst{
+    padding: "5px 0";
+}
+.divOfNote{
+    display: flex;
+    justify-content: space-between;
+}
